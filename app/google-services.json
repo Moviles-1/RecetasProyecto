@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "938799694870",
+    "project_id": "recetas-3bdb7",
+    "storage_bucket": "recetas-3bdb7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938799694870:android:71d82b50b54aef5f69a137",
+        "android_client_info": {
+          "package_name": "com.example.recetasproyecto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFOq3vcWbv_IaUskOI1BZVoaNUlxB8XhQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
