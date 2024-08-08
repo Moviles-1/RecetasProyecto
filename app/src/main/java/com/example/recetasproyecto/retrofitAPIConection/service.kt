@@ -4,6 +4,7 @@ import retrofit2.Call
 import retrofit2.http.Body
 import retrofit2.http.GET
 import retrofit2.http.POST
+import retrofit2.http.Query
 
 interface MyApiService {
 
@@ -12,4 +13,7 @@ interface MyApiService {
 
     @POST("api")
     fun createReceta(@Body post: Post): Call<Post>
+
+    @GET("api/search")
+    fun searchRecipes(@Query("name") name: String): Call<List<Post>>
 }
